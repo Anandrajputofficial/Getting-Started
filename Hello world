@@ -1,0 +1,50 @@
+(1) Why do we start learning a programming language with "Hello, world!"?
+
+Simplicity and Testing. The "Hello World!" program is a simple, straightforward program that demonstrates the basic structure and syntax of a programming language, and it's also used as a way to test that the development environment is set up correctly.
+
+
+(2) How is the use of comments and how do you write comments in HTML?
+
+Comments are used in HTML (and other programming languages) to add notes or explanations to the code that do not affect the execution or display of the webpage. They are ignored by the browser and are only intended for the developer or other people who may read the code.
+
+In HTML, comments are written using the following syntax:
+
+<!-- This is an HTML comment -->
+
+The comment begins with an opening angle bracket followed by an exclamation mark and two dashes (<!--), and ends with two dashes and a closing angle bracket (-->). Everything in between these two markers is considered a comment and will not be displayed or executed by the browser.
+
+For example, you might use a comment to explain a specific section of the code or to indicate that a certain line of code is under development or not yet ready for production.
+
+(3) What are element, tag, and attributes, and differance between them?
+
+In HTML, an element refers to the overall construct that consists of an opening tag, content, and a closing tag. Elements are the building blocks of an HTML document, and they are used to define the structure and layout of a webpage.
+
+A tag is the markup used to create an HTML element. Tags are enclosed in angle brackets (< and >), and they typically come in pairs, with an opening tag and a closing tag. The opening tag defines the start of an element and includes the element's name, and the closing tag defines the end of an element.
+
+For example:
+
+<p>This is a paragraph</p>
+
+The <p> and </p> tags create a "p" element that defines a paragraph of text.
+
+An attribute is used to provide additional information about an element. Attributes are added to the opening tag of an element and are used to define various properties of the element, such as its id, class, or style.
+
+For example:
+
+
+<p class="highlight">This is a highlighted paragraph</p>
+In this example, the class attribute is used to assign a class of "highlight" to the "p" element.
+
+In short, an element is the building block of an HTML document, a tag is the markup used to create an element, and an attribute provides additional information about the element. An element consists of an opening tag, content, and a closing tag. An opening tag includes the element's name and an attribute if provided.
+
+(4) Briefly explain what HTML entities are?
+
+HTML entities are special characters that are used to display characters that have a special meaning in HTML. They are represented by a string of text that starts with an ampersand (&) and ends with a semicolon (;), and they are used to represent characters that are not available on a keyboard or that have a special meaning in HTML.
+
+For example, the greater than sign (>) is used to create the opening tag of an HTML element, so if you want to display a greater than sign in the content of a webpage, you would use the HTML entity &gt;.
+
+Another example is the ampersand (&) itself, which is used to separate attributes in an HTML element, so if you want to display an ampersand in the content of a webpage, you would use the HTML entity &amp;.
+
+There are many different HTML entities available, including entities for special characters such as copyright symbols, trademarks, and foreign characters, as well as entities for common HTML symbols such as the less than sign, greater than sign, and ampersand.
+
+In short, HTML entities are special characters that are used to display characters that have a special meaning in HTML, they are represented by a string of text starting with '&' and ending with ';' and are used to represent characters that are not available on a keyboard or that have a special meaning in HTML.
